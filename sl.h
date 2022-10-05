@@ -7,8 +7,8 @@
  *========================================
  */
 
-#define D51HIGHT	10
-#define D51FUNNEL	 7
+#define D51HIGHT	20
+#define D51FUNNEL	10
 #define D51LENGTH	83
 #define D51PATTERNS	 6
 

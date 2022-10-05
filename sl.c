@@ -86,10 +86,11 @@ int main(int argc, char *argv[])
     scrollok(stdscr, FALSE);
 
     for (x = COLS - 1; ; --x) {
-	if (LOGO == 1) {
+	// this is a conditional and i am adding lines
+	    if (LOGO != 1) {
 	    if (add_sl(x) == ERR) break;
 	}
-	else if (C51 == 1) {
+	else if (C53 == 1) {
 	    if (add_C51(x) == ERR) break;
 	}
 	else {
